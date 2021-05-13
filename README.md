@@ -1,4 +1,4 @@
-# Lab5: Analyzing Flights Data
+# Lab 4: Analyzing Flights Data
 
 This lab focusses on extracting, exploring, manipulating and analyzing flights data available on [OpenFlights project](https://openflights.org/). Most the flights data regarding the Airport ID, name, city, country, latitude, longitude, etc are stored in multiple files. We have used two datasets namely airports.dat and routes.dat. For extracting the latitude and longitude information, airports.dat is used and for extracting the source and setination unique airport ids, routes.dat is used. A list is created that stores the routes distance values of all the possible routes available in the data using Haversine formula to calculate the orthodromic distance is the shortest distance between two points on a sphere (or the surface of Earth). Using the list of routes distances, a histogram is created that shows the distribution of different flight distances. <br>
 
